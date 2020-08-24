@@ -1,0 +1,54 @@
+.calc-contain {
+    background-color: lightgray;
+    width: 350px;
+    border: 2px solid black;
+    border-radius: 12px;
+    padding: 20px 20px 80px 20px;
+}
+
+input[type=button] {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    margin-top: 10px;
+    border-radius: 7px;
+    font-weight: 500;
+}
+
+input[type=text] {
+    font-size: 20px;
+    width: 110%;
+    margin: 5px auto;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#buttons {
+    background: white;
+    color: black;
+}
+
+#buttons:hover {
+    background: green;
+    color: white;
+}
+
+#clearButton {
+    background: red;
+    color: white;
+}
+
+#clearButton:hover {
+    background: green;
+    color: white;
+}
+
+#mathButtons {
+    background: black;
+    color: white;
+}
+
+#mathButtons:hover {
+    background: green;
+    color: white;
+}
