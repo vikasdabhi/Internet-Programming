@@ -1,1 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calci.css">
+    <style>
+        body {
+            background-image: url('img.jpg');
+        }
+    </style>
+
+</head>
+
+<body>
+    <center>
+
+
+
+
+
+        <form name="calculator" class='calc-contain'>
+            <table>
+                <tr>
+                    <td colspan=3><input type="text" name="answer"></td>
+                </tr>
+                <tr>
+                    <td><input id="buttons" type="button" value="7" onclick="calculator.answer.value += '7'" /></td>
+                    <td><input id="buttons" type="button" value="8" onclick="calculator.answer.value += '8'" /></td>
+                    <td><input id="buttons" type="button" value="9" onclick="calculator.answer.value += '9'" /></td>
+                    <td><input id="mathButtons" type="button" value="+" onclick="calculator.answer.value += '+'" /></td>
+                </tr>
+                <tr>
+                    <td><input id="buttons" type="button" value="4" onclick="calculator.answer.value += '4'" /></td>
+                    <td><input id="buttons" type="button" value="5" onclick="calculator.answer.value += '5'" /></td>
+                    <td><input id="buttons" type="button" value="6" onclick="calculator.answer.value += '6'" /></td>
+                    <td><input id="mathButtons" type="button" value="-" onclick="calculator.answer.value += '-'" /></td>
+                </tr>
+                <tr>
+                    <td><input id="buttons" type="button" value="1" onclick="calculator.answer.value += '1'" /></td>
+                    <td><input id="buttons" type="button" value="2" onclick="calculator.answer.value += '2'" /></td>
+                    <td><input id="buttons" type="button" value="3" onclick="calculator.answer.value += '3'" /></td>
+                    <td><input id="mathButtons" type="button" value="x" onclick="calculator.answer.value += '*'" /></td>
+                </tr>
+                <tr>
+                    <td><input id="clearButton" type="button" value="C" onclick="calculator.answer.value = ''" /></td>
+                    <td><input id="buttons" type="button" value="0" onclick="calculator.answer.value += '0'" /></td>
+                    <td><input id="mathButtons" type="button" value="=" onclick="calculator.answer.value =  eval(calculator.answer.value)" /></td>
+                    <td><input id="mathButtons" type="button" value="/" onclick="calculator.answer.value += '/'" /></td>
+                </tr>
+
+
+            </table>
+        </form>
+    </center>
+
+
+
+
+
+
+</body>
+
+</html>
